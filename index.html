@@ -11,6 +11,78 @@
 </head>
 
 <body>
+
+
+    <header id="main-menu" class="d-flex align-items-center justify-content-between">
+        <nav>
+            <ul class="d-flex align-items-center">
+                <div>
+                    <a href="/">
+                        <img src="img/omnilogo.jpg" id="logo" alt="logo" width="100">
+                    </a>
+                </div>
+                <li class="active">
+                    <a href="/">Home</a>
+                </li>
+                <li>
+                    <a href="#">About</a>
+                </li>
+               
+                    <a href="#">Omni</a>
+                </li>
+                <li>
+                    <a href="#">Gallery</a>
+                </li>
+                <li>
+                    <a href="#">Contact us</a>
+                </li>
+            </ul>
+        </nav>
+       
+    </header>
+
+    <header id="mob-menu">
+        <div class="d-flex align-items-center justify-content-between">
+            <div>
+                <a href="/">
+                    <img src="img/omnilogo.jpg" id="logo" alt="logo" width="150">
+                </a>
+            </div>
+            <button class="hamburger" onclick="toggleMenu()">|||</button>
+        </div>
+    </header>
+    <nav id="mob-main" class="left-full">
+        <ul class="d-flex flex-column align-items-left">
+            <li>
+                <a href="/index.html">Home</a>
+            </li>
+            <li>
+                <a href="#">About</a>
+            </li>
+            <li>
+                <a href="#">Projects</a>
+            </li>
+            <li>
+                <a href="#">Contact us </a>
+            </li>
+        </ul>
+        <button class="d-block" onclick="toggleMenu()">
+            Cart
+        </button>
+    </nav>
+
+    <script>
+        function toggleMenu() {
+            const mobMain = document.getElementById('mob-main');
+            mobMain.classList.toggle('left-0');
+            mobMain.classList.toggle('left-full');
+        }
+    </script>
+
+
+
+
+    
     <section class="main-wrapper">
         <div class="container-fluid">
             <div class="video-background">
