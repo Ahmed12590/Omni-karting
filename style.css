@@ -71,7 +71,7 @@ footer ul {
   display: flex;
   justify-content: center;
   list-style: none;
-  align-items: ;
+  align-items: center;
 }
 footer ul li a {
   color: white;
