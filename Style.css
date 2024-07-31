@@ -27,3 +27,7 @@ nav li a {
     color: rgb(255, 255, 255);
     text-decoration: none;
 }
+nav li a:hover {
+    text-decoration: none;
+    color: red;
+}
