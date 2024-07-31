@@ -1,56 +1,29 @@
-
-
-
-#main-menu{
-    background-color: #000;
-    
+*{
+    margin: 0%;
+    padding: 0%;
 }
 
-#main-menu ul {
-    gap: 3rem;
-    list-style: none;
-}
-a{
-    color: antiquewhite;
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-.footer{
+nav{
     width: 100%;
-height: 29.75rem;
-background: black;
-position: absolute;
-bottom: 0;
+    height: 90px;
+    line-height: 75px;
+    position: fixed;
+    z-index: 100;
+        padding: 0px 100px;
+        background-color: black;
 }
-.footer-logo{
-    margin-top: 5rem;
+nav ul {
+    float: right;
+
 }
-.footer p{
- color: white;
-}
-.third-col li{
-    color: white;
+nav li {
+    display: inline-block;
     list-style: none;
 }
-a{
-    color: aliceblue;
+nav li a {
+    font-size: 25px;
+    text-transform: uppercase;
+    padding: 0px 30px;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
 }
