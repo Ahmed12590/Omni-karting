@@ -16,6 +16,7 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
   </head>
 
   <body>
@@ -35,14 +36,29 @@
 
 
 
-    <section>
-      <div class="container-fluid">
-        <div class="row">
-          <div class="col-12">section</div>
-        </div>
+<section>
+  <!-- Swiper -->
+  <div class="swiper mySwiper">
+      <div class="swiper-wrapper">
+          <div class="swiper-slide">
+              <img src="img/slide.png" alt="" style="height: 85vh; object-fit: cover;">
+          </div>
+          <div class="swiper-slide">
+              <img src="img/slide1.png" alt="" style="height: 85vh; object-fit: cover;">
+          </div>
+          <div class="swiper-slide">
+              <img src="img/slide2.png" alt="" style="height: 85vh; object-fit: cover;">
+          </div>
       </div>
-    </section>
+  </div>
+</section>
 
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+    <!-- Initialize Swiper -->
+    <script>
+      var swiper = new Swiper(".mySwiper", {});
+    </script>
 
 
 
