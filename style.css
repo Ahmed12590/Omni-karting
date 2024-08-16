@@ -120,7 +120,7 @@ body {
   }
 }
 
-.section-wrapper{
+.about-wrapper{
   display: flex;
   justify-content: center;
   align-items: center;
@@ -130,7 +130,24 @@ body {
   padding-right: 15rem;
 }
 .heading-content{
+  padding-left: 13rem;
+}
+.section-wrapper{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 5rem;
+  padding-left: 5rem;
+  padding-right: 15rem;
+}
+.sec-heading-content{
   padding-left: 3rem;
+  padding-right: 15rem;
+}
+.sec-heading-content h3 {
+  font-size: 4rem;
+  font-family: Poppins-Bold ;
+font-weight: 800;
 }
 
 
