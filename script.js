@@ -5,3 +5,5 @@ const swiper = new Swiper('.mySwiper', {
     },
     loop: true, // Loop through slides
 });
+
+
