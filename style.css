@@ -107,7 +107,7 @@ body {
 }
 
 /* Ensuring the sections are spaced correctly */
-.container {
+.container-fluid {
   display: flex;
   justify-content: space-between;
 }
@@ -119,6 +119,30 @@ body {
     margin-bottom: 20px;
   }
 }
+
+.section-wrapper{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 2rem;
+  padding-bottom: 5rem;
+  padding-left: 8rem;
+  padding-right: 15rem;
+}
+.heading-content{
+  padding-left: 3rem;
+}
+
+
+
+
+
+
+
+
+
+
+
 
 
 
