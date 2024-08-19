@@ -32,7 +32,8 @@ nav li a:hover {
 }
 /* header end */
 
-.swiper mySwiper{}
+.swiper mySwiper {
+}
 
 /* slider css  */
 body {
@@ -66,13 +67,16 @@ body {
 .swiper-slide img {
   display: block;
   width: 100%;
-  height: 100%; 
+  height: 100%;
   object-fit: cover;
 }
 /* slider css end  */
 
 /* Container for all content sections */
-.second-section, .first-content, .second-content, .third-content {
+.second-section,
+.first-content,
+.second-content,
+.third-content {
   display: inline-block;
   width: 100%;
   text-align: center;
@@ -83,26 +87,30 @@ body {
 
 /* Specific background colors for each content block */
 .second-section {
-  background-color: #4d4f59; 
+  background-color: #4d4f59;
 }
 
 .second-content {
-  background-color: #d52427; 
+  background-color: #d52427;
 }
 
 .third-content {
-  background-color: #4d4f59; 
+  background-color: #4d4f59;
 }
 
 /* Heading styling */
-.second-section h2, .second-content h2, .third-content h2 {
+.second-section h2,
+.second-content h2,
+.third-content h2 {
   font-size: 1.5em;
   font-weight: bold;
   margin-bottom: 10px;
 }
 
 /* Paragraph styling */
-.second-section strong, .second-content strong, .third-content strong {
+.second-section strong,
+.second-content strong,
+.third-content strong {
   font-size: 0.9em;
 }
 
@@ -114,13 +122,15 @@ body {
 
 /* Optional: To make the sections responsive */
 @media (max-width: 768px) {
-  .second-section, .second-content, .third-content {
+  .second-section,
+  .second-content,
+  .third-content {
     width: 100%;
     margin-bottom: 20px;
   }
 }
 
-.about-wrapper{
+.about-wrapper {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -129,10 +139,16 @@ body {
   padding-left: 8rem;
   padding-right: 15rem;
 }
-.heading-content{
+
+.heading-content h3 {
+  font-family: Poppins-Bold;
+  font-weight: 800;
+  font-size: 4rem;
+}
+.heading-content {
   padding-left: 13rem;
 }
-.section-wrapper{
+.section-wrapper {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -140,25 +156,28 @@ body {
   padding-left: 5rem;
   padding-right: 15rem;
 }
-.sec-heading-content{
+.sec-heading-content {
   padding-left: 3rem;
   padding-right: 15rem;
 }
 .sec-heading-content h3 {
   font-size: 4rem;
-  font-family: Poppins-Bold ;
-font-weight: 800;
+  font-family: Poppins-Bold;
+  font-weight: 800;
 }
 
+.testimonial-section {
+  padding-bottom: 2rem;
+  padding-top: 2rem;
+}
 
+.testimonial-section h2 {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 
-
-
-
-
-
-
-
+}
 
 /* footer start */
 footer {
@@ -229,4 +248,3 @@ footer li a:hover {
     margin: 10px;
   }
 }
-  
